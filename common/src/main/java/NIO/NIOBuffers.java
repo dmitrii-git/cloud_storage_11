@@ -23,7 +23,6 @@ public class NIOBuffers {
         System.out.println(buffer.get());
         buffer.flip();
         System.out.println(buffer.get());
-        // SocketChannel - tcp
-        // DatagramChannel - udp
+
     }
 }
